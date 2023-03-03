@@ -16,12 +16,11 @@ function App() {
       <Route path="/" element={<Home />}></Route>
         <Route path="/Signup" element={<Signup />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
-        
-        
-        
-      </Routes>
+    </Routes>
     </BrowserRouter>
     </div>
   );
 }
 export default App;
+
+
