@@ -1,0 +1,122 @@
+.searchPanel{
+    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
+    padding: 30px;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center center center;
+}
+
+.header1{
+    color: #31d7a9;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.header2{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 36px;
+}
+
+.searchBox{
+    width: 100%;
+    padding: 36px 20px;
+    background-color: black;
+    opacity: 0.35;
+}
+
+.searchWrapper{
+    border-bottom: 1px solid white;
+    width: 21%;
+}
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+   
+    font-size: large;
+}
+
+.searchInput::placeholder{
+    color: white;
+}
+
+.searchIcon{
+    color: white !important;
+    margin-left: 65px;
+}.searchPanel{
+    background-image: url("http://pixner.net/boleto/demo/assets/images/ticket/ticket-bg01.jpg");
+    padding: 40px;
+    float: center;
+    /* width: 1000px; */
+    /* margin-left: 10px; */
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 80px;
+}
+
+.header1{
+    margin-left: 350px;
+    text-align: center;
+    justify-content: center;
+    color: #31d7a9;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.header2{
+    margin-left: 300px;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 36px;
+}
+
+.searchBox{
+    margin-bottom: 10px ;
+    width: 100%;
+    padding: 36px 20px;
+    background-color: black;
+    opacity: 0.35;
+}
+
+.searchWrapper{
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: 30%;
+    
+}
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+   
+    font-size: large;
+}
+
+.searchInput::placeholder{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.searchIcon{
+    color: white !important;
+    margin-left: 240px;
+}
