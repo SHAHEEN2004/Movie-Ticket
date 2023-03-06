@@ -2,15 +2,15 @@ import Navbar from '../Components/Navbar'
 import Cover from '../Baner/Cover'
 import './Home.css'
 import Search from '../Components/Search/Search'
-import Card from '../Components/MovieCard/Card'
 import { useEffect, useState } from 'react'
+import { MovieCard } from '../Components/MovieCard/MovieCard'
 export default function Home() {
-  const [Movie, setMovie] = useState([])
+  const [movies, setMovies] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:4000/api/movie')
-      .then((response) => response.json())
-      .then(Movie => {
-        setMovie(Movie)
+    fetch("http://localhost:4000/api/movie")
+      .then((res) => res.json())
+      .then(movies => {
+        setMovies(movies);
       })
   }, [])
   return (
@@ -25,12 +25,14 @@ export default function Home() {
         </div>
         <div className="row">
           {
-            Movie.map(D =>
-              <div key={D._id} className='map'>
+            movies.map(m =>
+              <div key={m._id} className="col-md-3">
                 <a href="/movie/1">
-                  <Card/> 
+                  <MovieCard key={m._id} movie={m} />
                 </a>
-              </div>)
+              </div>
+
+            )
           }
         </div>
       </div>

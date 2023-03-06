@@ -1,0 +1,30 @@
+.details {
+    background-color: #001232;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.baner {
+    background-color: #032055;
+    height: 170px;
+    padding: 24px;
+    width: 100%;
+}
+
+.sections {
+    position: relative;
+    width: 100%;
+    padding-left: 120px;
+    height: 250px;
+}
+
+.sectionImage {
+    position: absolute;
+    top: 110px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #17305f;
+    border-radius: 6px;
+}
