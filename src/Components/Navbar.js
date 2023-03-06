@@ -6,6 +6,9 @@ export default function Navbar() {
     function nav(){
         navigate("/SignUp")
     }
+    function details(){
+        navigate("/movie/1")
+    }
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-bg">
 
@@ -19,29 +22,33 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            {/* <a className="nav-link active" aria-current="page" href="#">Home</a> */}
+                    
+                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                               Home
+                                Home
                             </a>
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="#">Home One</a></li>
                                 <li><a className="dropdown-item" href="#">Home Two</a></li>
-                                </ul>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Movie</a>
+                                
+                            </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            {/* <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a> */}
-                            {/* <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                            </ul> */}
+                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Movie
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="#">Movie Grid</a></li>
+                                <li><a className="dropdown-item" href="#">Movie List</a></li>
+                                <li><a className="dropdown-item" onClick={details}>Movie Details</a></li>
+    
+                                <li><a className="dropdown-item" href="#">Movie Details 2</a></li>
+                                <li><a className="dropdown-item" href="#">Movie Ticket Plan</a></li>
+                                <li><a className="dropdown-item" href="#">Movie Seat Plan</a></li>
+                                <li><a className="dropdown-item" href="#">Movie Checkout</a></li>
+                                <li><a className="dropdown-item" href="#">Movie Food</a></li>
+                               
+                            </ul>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link disabled">Contact</a>
