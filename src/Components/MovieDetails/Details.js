@@ -18,6 +18,34 @@ export function Details() {
                         Book Tickets
                     </a>
                 </section>
+                <section className='baners'>
+                    <div>
+                        <img className="imgs" src="https://pixner.net/boleto/demo/assets/images/movie/tomato.png" alt="Rating" />
+                        &nbsp;&nbsp;
+                    </div>
+                    <div className="para">
+                        <span>
+                            80%
+                        </span>
+                    </div>
+                    <p className="p1">
+                        TommotoMeter
+                    </p>
+                    &nbsp;&nbsp;
+
+                    <div className="img2">
+                        <img className="imgs2" src="https://pixner.net/boleto/demo/assets/images/movie/cake.png" alt="Rating" />
+                        &nbsp;&nbsp;
+                        <div className="para1">
+                            <span>
+                                80%
+                            </span>
+                        </div>
+                        <p className="p2">
+                            Audience Score
+                        </p>
+                    </div>
+                </section>
                 <section>
                     <MTabs />
                 </section>
