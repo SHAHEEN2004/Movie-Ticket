@@ -13,7 +13,7 @@ export  function MovieCard({ movie }) {
                     <hr />
                     <div className="rating">
                         <div>
-                        <img src="https://pixner.net/boleto/demo/assets/images/movie/tomato.png" alt="Rating" />
+                        <img className="img" src="https://pixner.net/boleto/demo/assets/images/movie/tomato.png" alt="Rating" />
                         &nbsp;&nbsp;
                         <span>
                             {movie.rating}
@@ -21,7 +21,7 @@ export  function MovieCard({ movie }) {
                         <span>80%</span>
                         </div>
                         <div>
-                        <img src="https://pixner.net/boleto/demo/assets/images/movie/cake.png" alt="Rating" />
+                        <img className="img" src="https://pixner.net/boleto/demo/assets/images/movie/cake.png" alt="Rating" />
                         &nbsp;&nbsp;
                         <span>
                             {movie.rating}

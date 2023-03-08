@@ -11,6 +11,9 @@
     height: 170px;
     padding: 24px;
     width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .sections {
@@ -22,9 +25,23 @@
 
 .sectionImage {
     position: absolute;
-    top: 110px;
+    top: 270px;
     width: 250px;
     height: 350px;
     border: 1px solid #17305f;
     border-radius: 6px;
+}
+.mvt{
+    width: 100%;
+    padding-left: 400px;
+}
+.btn-tickets{
+    background-image: -webkit-linear-gradient(169deg, #5560FF 17%, #AA52A1 63%, #FF4343 100%);
+    padding: 11px 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
 }
