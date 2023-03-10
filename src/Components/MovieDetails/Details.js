@@ -1,17 +1,30 @@
+import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import MTabs from '../MovieTabs/MTabs'
 import Title from '../MovieTitle/Title'
 import Navbar from '../Navbar'
 import './Details.css'
 export function Details() {
+    const [movie, setMovie] = useState({});
+    const { id } = useParams();
+    useEffect(() => {
+        fetch("http://localhost:4000/api/movie/" + id)
+            .then(res => {
+                return res.json();
+            })
+            .then(passedres => {
+                setMovie(passedres);
+            })
+    }, [])
     return (
         <div>
             <Navbar />
             <div className='details'>
                 <section className='sections'>
-                    <img className='sectionImage' src="https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" alt="Image" />
+                    <img className='sectionImage' src={movie.posterUrl} alt="Image" />
                 </section>
                 <section className="mvt">
-                    <Title />
+                    <Title movie={movie} />
                 </section>
                 <section className='baner'>
                     <a className='btn-tickets' href="#">

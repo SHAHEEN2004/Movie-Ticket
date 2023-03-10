@@ -4,6 +4,7 @@ import './Home.css'
 import Search from '../Components/Search/Search'
 import { useEffect, useState } from 'react'
 import { MovieCard } from '../Components/MovieCard/MovieCard'
+import { Link } from 'react-router-dom'
 export default function Home() {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
@@ -27,9 +28,12 @@ export default function Home() {
           {
             movies.map(m =>
               <div key={m._id} className="col-md-3">
-                <a href="/movie/1">
+                {/* <a href="/movie/1">
                   <MovieCard key={m._id} movie={m} />
-                </a>
+                </a> */}
+                <Link to={`movie/${m._id}`}>
+                <MovieCard key={m._id} movie={m} />
+                </Link>
               </div>
 
             )

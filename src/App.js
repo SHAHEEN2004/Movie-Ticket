@@ -4,6 +4,7 @@ import { Signup } from './Components/LogIn/SignUp';
 import { SignIn } from './Components/LogIn/SignIn';
 import Home from './Pages/Home';
 import { Details } from './Components/MovieDetails/Details';
+import { Seats } from './Components/Seats/Seats';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/Signup" element={<Signup />}></Route>
           <Route path="/SignIn" element={<SignIn />}></Route>
-          <Route path="/movie/1" element={<Details />}></Route>
+          <Route path="/movie/:id/" element={<Details />}></Route>
+          <Route path="/Seats" element={<Seats />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
