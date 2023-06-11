@@ -1,0 +1,15 @@
+.nav-pills .nav-link{
+    border-radius: 0;
+    color: black;
+    background-color: #001232;
+}
+.tab-content{
+    color: white;
+}
+.lorem{
+    color: white;
+}
+.sum{
+    width: 600px;
+margin-left: 150px;
+}

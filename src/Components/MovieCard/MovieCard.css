@@ -1,0 +1,20 @@
+.card{
+    margin: 18px 7px ;
+    display: flex;
+    color: white;
+    background-color: #0b2960 !important;
+}
+.rating{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.titles{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.img{
+    margin-bottom: 5px;
+}

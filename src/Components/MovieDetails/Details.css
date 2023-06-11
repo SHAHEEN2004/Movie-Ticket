@@ -1,0 +1,85 @@
+.details {
+    background-color: #001232;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.baner {
+    background-color: #032055;
+    height: 170px;
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sections {
+    position: relative;
+    width: 100%;
+    padding-left: 120px;
+    height: 250px;
+}
+.sectionImage {
+    position: absolute;
+    top: 140px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #17305F;
+    border-radius: 6px;
+}
+.mvt{
+    width: 100%;
+    padding-left: 400px;
+}
+.btn-tickets{
+    background-image: -webkit-linear-gradient(169deg, #5560FF 17%, #AA52A1 63%, #FF4343 100%);
+    padding: 11px 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 1010px;
+}
+.baners{
+    background-color: #032055;
+    height: 10px;
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.imgs{
+    margin-left: 550px;
+    margin-bottom: 180px;
+    width: 35px;
+}
+.para{
+    color: white;
+    margin-bottom: 180px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.imgs2{
+    margin-left: 150px;
+    margin-bottom: -60px;
+    width: 35px;
+}
+.p1{
+    color: white;
+    margin-left: -90px;
+    margin-bottom: 80px;
+}
+.p2{
+    color: white;
+    margin-bottom: 160px;
+    margin-left: 150px;
+}
+.para1{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}

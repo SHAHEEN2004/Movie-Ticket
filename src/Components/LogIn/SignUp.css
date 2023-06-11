@@ -1,0 +1,58 @@
+.signupContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://pixner.net/boleto/demo/assets/images/account/account-bg.jpg");
+}
+.signupForm{
+    width: 500px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgba(68, 90, 153, 0.051);
+    padding: 60px 45px;
+    box-shadow: 0px 0px 29.4px 0.6px rgb(0 0 0 / 50%);
+}
+.welcomeText{
+    color: #31d7a9;
+    font-size: 18px;
+}
+.form-label{
+    color: white !important;
+    text-transform: uppercase;
+}
+.welcomeSubText{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+.form-control-group{
+    text-align: left;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+.form-control{
+    background: none;
+    border: none;
+    color: white !important;
+    border-bottom: 1px solid #23334f;
+    border-radius:0%;
+}
+.loginText{
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+.loginLink{
+    color: #31d7a9;
+}
+.form-control:focus{
+    background: none;
+    border: none;
+    outline: none;
+    border-color: transparent;
+}

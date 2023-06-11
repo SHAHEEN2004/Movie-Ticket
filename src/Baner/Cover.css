@@ -1,0 +1,21 @@
+.cov {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cov p {
+    font-size: 35px;
+    line-height: 1.4;
+    color: aliceblue;
+}
+.cov1 {
+    color: whitesmoke;
+    font-size: 90px;
+    font-weight: 800;
+}
+.cov2{
+    color: aquamarine !important; 
+}

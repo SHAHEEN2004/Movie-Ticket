@@ -1,0 +1,20 @@
+.navbar-bg{
+    background-color: rgb(20, 2, 100) !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: x-large;
+}
+.btn-primary{
+    background-image: -webkit-linear-gradient(169deg, #5560ff 17%, #aa52a1 63%, #ff4343 100%);
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border-radius: 18px;
+}
+.nav-item{
+    font-weight: 600;
+  }
